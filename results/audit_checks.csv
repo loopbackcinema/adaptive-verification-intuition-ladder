@@ -1,0 +1,11 @@
+check,pass
+split_sizes,True
+confidence_baseline_uninformative_only_at_w0,True
+confidence_baseline_increases_with_w_conf,True
+L1_adds_no_error_information,True
+L2_L4_add_error_information,True
+latent_ladder_monotonic_within_each_w,True
+gate_selects_high_predicted_error,True
+oracle_at_least_as_good_as_all_policies,True
+no_ood_refit,True
+train_only_normalisation,True

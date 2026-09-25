@@ -1,0 +1,21 @@
+{
+  "title": "Adaptive verification with an intuition-like auxiliary signal: canonical v8 pipeline and results",
+  "upload_type": "software",
+  "license": "MIT",
+  "creators": [
+    {
+      "name": "Velayutham S",
+      "affiliation": "BeliefRecode AI Pvt. Ltd., Chennai, India",
+      "orcid": "0009-0005-6518-9291"
+    }
+  ],
+  "keywords": [
+    "adaptive verification",
+    "selective prediction",
+    "learning to defer",
+    "calibration",
+    "synthetic experiment",
+    "reproducibility"
+  ],
+  "description": "Deterministic synthetic pipeline testing whether an auxiliary, intuition-like cue improves adaptive verification beyond model confidence, across a grid of cue information levels (L0-L4) and confidence-baseline informativeness (w_conf). Includes the generator, a matched-error-rate sensitivity analysis, all CSV outputs, audit checks, output hashes and an independent-rerun hash comparison."
+}

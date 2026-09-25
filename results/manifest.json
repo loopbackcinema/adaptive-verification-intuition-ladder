@@ -1,0 +1,39 @@
+{
+  "seed": 20260925,
+  "splits": {
+    "train": 12000,
+    "val": 6000,
+    "test": 6000,
+    "ood": 6000
+  },
+  "cue_levels": {
+    "L0": 0.0,
+    "L1": 0.0,
+    "L2": 0.45,
+    "L3": 1.0,
+    "L4": 2.0
+  },
+  "w_conf_grid": [
+    0.0,
+    0.5,
+    1.1,
+    2.0
+  ],
+  "w_latent": 1.25,
+  "flip_intercept": -0.9,
+  "budgets": [
+    0.1,
+    0.2,
+    0.3,
+    0.4
+  ],
+  "primary_budget": 0.2,
+  "bootstrap_resamples": 5000,
+  "fast_features": "X0:X3",
+  "latent_features": "X4:X7",
+  "flip_model": "sigmoid(B0 + w_conf * u_z + w_latent * d_z); u_z = -standardised |decision margin|",
+  "gate_features": "standardised negative |logit margin| of the fast model (+ cue for the intuition gate)",
+  "normalisation": "training split only, frozen for validation/test/OOD",
+  "ood": "shifted latent-feature distribution and weaker latent signal; no gate refit",
+  "sklearn_note": "LogisticRegression(max_iter=2000), LinearRegression; deterministic solvers"
+}

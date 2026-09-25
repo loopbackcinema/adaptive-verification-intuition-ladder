@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use this software or its outputs, please cite it as below."
+title: "Adaptive verification with an intuition-like auxiliary signal: canonical v8 pipeline"
+authors:
+  - family-names: "S"
+    given-names: "Velayutham"
+    orcid: "https://orcid.org/0009-0005-6518-9291"
+version: "8.0.0"
+date-released: "2026-09-25"
+license: MIT
+keywords:
+  - adaptive verification
+  - selective prediction
+  - learning to defer
+  - calibration
+  - synthetic experiment
