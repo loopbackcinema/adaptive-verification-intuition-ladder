@@ -1,5 +1,7 @@
 # Adaptive verification with an intuition-like auxiliary signal
 
+**Status:** Submitted to *Neurocomputing* (Elsevier) as a regular article, September 26, 2026.
+
 Canonical v8 experimental package for the paper *Can an Intuition-Like Auxiliary Signal Improve
 Adaptive AI Verification? A Synthetic Information-Ladder Study of Confidence, Early-Warning Cues,
 and Matched-Budget Verification*.
