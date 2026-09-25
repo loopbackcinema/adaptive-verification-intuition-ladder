@@ -1,13 +1,14 @@
-# Adaptive verification with an intuition-like auxiliary signal
+# Adaptive verification with an auxiliary routing signal
 
 **Status:** Submitted to *Neurocomputing* (Elsevier) as a regular article, September 26, 2026.
 
-Canonical v8 experimental package for the paper *Can an Intuition-Like Auxiliary Signal Improve
-Adaptive AI Verification? A Synthetic Information-Ladder Study of Confidence, Early-Warning Cues,
-and Matched-Budget Verification*.
-
-A fast model predicts first; a gate spends a fixed verification budget on the cases it judges most
-likely to be wrong. The question is whether an auxiliary "intuition-like" cue helps **after**
+This repository holds two linked studies. The submitted paper, *Predicting the Routing Value of
+Auxiliary Signals Before Deployment: A Preregistered Study of Conditional Information, Baseline
+Strength, and Budgeted Verification* (see `paper/`), is the preregistered v9 study: it tests
+whether a cheap, held-out diagnostic (delta-AUC) predicts the expensive routing gain from adding
+an auxiliary signal to an adaptive-verification system, before that signal is deployed. The
+canonical v8 package below was an earlier, exploratory pilot that motivated v9's design; it is
+disclosed as exploratory and is not used as confirmatory evidence in the submitted paper.
 confidence has been used. Two factors are crossed: how much independent information the cue carries
 about actual fast-model error (levels L0-L4) and how informative the confidence baseline itself is
 (`w_conf` = 0.0, 0.5, 1.1, 2.0). Everything is synthetic; nothing here models human intuition.
