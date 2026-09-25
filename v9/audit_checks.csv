@@ -1,0 +1,10 @@
+check,pass
+split_sizes_by_construction,True
+redundant_cue_gain_exact_zero_logreg,True
+redundant_cue_gain_bounded_gbm,True
+redundant_cue_gain_bounded_mlp,True
+redundant_cue_deltaauc_near_zero,True
+calibration_preserves_ranking_temp,True
+calibration_preserves_ranking_iso,True
+flip_rate_within_1pp_of_target,True
+H3_direction_negative_median_corr,True

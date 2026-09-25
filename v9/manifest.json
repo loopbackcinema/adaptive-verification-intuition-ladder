@@ -1,0 +1,56 @@
+{
+  "master_seed": 20261001,
+  "n_seeds": 20,
+  "smoke": false,
+  "generators": [
+    "linear",
+    "nonlinear"
+  ],
+  "w_conf_grid": [
+    0.0,
+    0.2,
+    0.4,
+    0.6,
+    0.8,
+    1.0,
+    1.2,
+    1.4,
+    1.6,
+    1.8,
+    2.0
+  ],
+  "cue_levels": {
+    "L0_null": 0.0,
+    "L1_redundant": "redundant",
+    "a025": 0.25,
+    "a045": 0.45,
+    "a070": 0.7,
+    "a100": 1.0,
+    "a150": 1.5,
+    "a200": 2.0,
+    "a300": 3.0
+  },
+  "gate_learners": [
+    "logreg",
+    "gbm",
+    "mlp"
+  ],
+  "budgets": [
+    0.05,
+    0.1,
+    0.15,
+    0.2,
+    0.25,
+    0.3,
+    0.4
+  ],
+  "primary_budget": 0.2,
+  "splits": {
+    "train": 12000,
+    "val": 6000,
+    "test": 6000,
+    "shift": 6000
+  },
+  "target_flip_rate": 0.33346412520548285,
+  "runtime_seconds": 1.2583472728729248
+}

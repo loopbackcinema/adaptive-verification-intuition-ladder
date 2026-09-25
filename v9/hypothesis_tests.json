@@ -1,0 +1,50 @@
+{
+  "H1": {
+    "development_n": 990,
+    "holdout_a_n": 990,
+    "holdout_b_n": 1980,
+    "spearman_holdout_a_linear_seeds11_20": 0.9764753715745738,
+    "spearman_holdout_b_nonlinear": 0.9799757419315956,
+    "mae_holdout_a_pp": 0.21488392495231315,
+    "support": true
+  },
+  "H2": {
+    "n_seeds": 20,
+    "mean_gain_vs_B3_pp": 3.666666666666667,
+    "ci95_low": 3.5433333333333343,
+    "ci95_high": 3.791666666666667,
+    "support": true
+  },
+  "H3": {
+    "rhos": {
+      "linear_a100": -0.9500580005692126,
+      "linear_a150": -0.9557137830266286,
+      "linear_a200": -0.9662041392916008,
+      "linear_a300": -0.9636777226673104,
+      "nonlinear_a100": -0.9645092029276128,
+      "nonlinear_a150": -0.9728268828063821,
+      "nonlinear_a200": -0.9789722576091279,
+      "nonlinear_a300": -0.9823170910862103
+    },
+    "holm_adjusted_p": {
+      "linear_a100": 0.0015996800639872025,
+      "linear_a150": 0.0015996800639872025,
+      "linear_a200": 0.0015996800639872025,
+      "linear_a300": 0.0015996800639872025,
+      "nonlinear_a100": 0.0015996800639872025,
+      "nonlinear_a150": 0.0015996800639872025,
+      "nonlinear_a200": 0.0015996800639872025,
+      "nonlinear_a300": 0.0015996800639872025
+    },
+    "support": true
+  },
+  "H4": {
+    "spearman_severity_vs_gain": -0.9760919211494998,
+    "most_severe_mean_pp": -0.3191666666666654,
+    "most_severe_ci95": [
+      -0.5024999999999974,
+      -0.14499999999999846
+    ],
+    "support": true
+  }
+}
