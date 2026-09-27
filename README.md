@@ -1,6 +1,6 @@
 # Adaptive verification with an auxiliary routing signal
 
-**Status:** Submitted to *Neurocomputing* (Elsevier) as a regular article, September 26, 2026.
+**Status:** Under consideration at *Pattern Recognition* (Elsevier), manuscript PR-D-26-13767, submitted September 2026.
 
 This repository holds two linked studies. The submitted paper, *Predicting the Routing Value of
 Auxiliary Signals Before Deployment: A Preregistered Study of Conditional Information, Baseline
